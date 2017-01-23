@@ -1,13 +1,13 @@
-![AyeAye](https://github.com/shippableSamples/node-build-push-docker-hub/blob/master/public/resources/images/captain.png)
+![AyeAye](https://github.com/shippableSamples/node-build-push-docker-gcr/blob/master/public/resources/images/captain.png)
 
-# Docker Build, Push and Continuous Integration for a Node JS application
-[![Run Status](https://api.shippable.com/projects/5885aec6aebc4e0f00804633/badge?branch=master)](https://app.shippable.com/projects/5885aec6aebc4e0f00804633)
-[![Coverage Badge](https://api.shippable.com/projects/5885aec6aebc4e0f00804633/coverageBadge?branch=master)](https://app.shippable.com/projects/5885aec6aebc4e0f00804633)
+# Docker Build, Push to Google Container Registry and Continuous Integration for a Node JS application
+[![Run Status](https://api.shippable.com/projects/5885b599cbf4491200910e17/badge?branch=master)](https://app.shippable.com/projects/5885b599cbf4491200910e17)
+[![Coverage Badge](https://api.shippable.com/projects/5885b599cbf4491200910e17/coverageBadge?branch=master)](https://app.shippable.com/projects/5885b599cbf4491200910e17)
 
 
 A simple Node JS application with unit tests and coverage reports using mocha 
 and istanbul. It also does a docker build once CI posses and then pushes the image
-to docker hub
+to Google Container Registry
 
 ## Run CI for this repo on Shippable
 * Fork this repo into your local repo
@@ -21,7 +21,7 @@ to docker hub
 ## CI Reports on Shippable
 
 ### CI Integration View
-![CI Integration View](https://github.com/shippableSamples/node-build-push-docker-hub/blob/master/public/resources/images/integration.jpg)
+![CI Integration View](https://github.com/shippableSamples/node-build-push-docker-gcr/blob/master/public/resources/images/integration.jpg)
 
 ### CI Console Output
-![CI Console Output](https://github.com/shippableSamples/node-build-push-docker-hub/blob/master/public/resources/images/console.jpg)
+![CI Console Output](https://github.com/shippableSamples/node-build-push-docker-gcr/blob/master/public/resources/images/console.jpg)
