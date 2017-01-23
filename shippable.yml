@@ -19,6 +19,8 @@ env:
     - GOOGLE_GCR_URL=gcr.io/shipbeta # gcr.io/{project name}
 
 build:
+
+  # http://docs.shippable.com/ci/shippableyml/#ci
   ci:
     # npm mirrors can sometimes be flacky, better to use shippable_retry
     # http://docs.shippable.com/ci/advancedOptions/retry/
@@ -30,6 +32,7 @@ build:
     - $MOD_LOC/istanbul report cobertura --dir $CODE_COVERAGE_DIR
     - popd
 
+  # http://docs.shippable.com/ci/shippableyml/#post_ci
   post_ci:
     - docker build -t $GOOGLE_GCR_URL/$DOCKER_REPO:$BRANCH.$BUILD_NUMBER .
     - docker push $GOOGLE_GCR_URL/$DOCKER_REPO:$BRANCH.$BUILD_NUMBER
