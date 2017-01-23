@@ -16,6 +16,7 @@ to Google Container Registry
 * All CI configuration is in `shippable.yml`
 * Follow these [CI Setup Instructions](http://docs.shippable.com/ci/runFirstBuild/) if you have never used Shippable CI Service
 * Update the integrationName in the integration.hub section if you used something other than `avi-beta-gcr`
+* Change the DOCKER_REPO and GOOGLE_GCR_URL to point to your repo and registry
 * You should be able to run a manual build or webhook build on commit
 
 ## CI Reports on Shippable
